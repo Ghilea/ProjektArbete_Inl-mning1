@@ -1,0 +1,29 @@
+.hero {
+    width: 100%;
+    height: clamp(25vh, 100vw - 25vh, 100vh);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-image: url(../../assets/backgrounds/background_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .hero_text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: clamp(9vw, 50vh + 15vw, 100vw);
+        align-items: center;
+        margin-top: clamp(9vh, 100vw - 71vh, 18vh);
+        color: white;
+        
+        .hero__title {
+            font-size: clamp(2rem, 5vw, 5rem);
+        }
+
+        .hero__subTitle {
+            margin-left: 1em;
+            font-size: clamp(1rem, 2.5vw, 2.5rem);
+        }
+    }
+}

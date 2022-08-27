@@ -1,5 +1,7 @@
 import React from 'react';
-import { Basic } from '@comp/store'
+import { Basic } from '@comp/store';
+import { Header } from '@comp/header/header';
+import { Hero } from '@comp/hero/hero';
 
 export const App = () => {
 
@@ -7,7 +9,8 @@ export const App = () => {
 
     return (
         <>  
-           
+           <Header />
+           <Hero />
         </>        
     )
 }

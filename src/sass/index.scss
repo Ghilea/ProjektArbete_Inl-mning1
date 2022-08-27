@@ -1,2 +1,11 @@
-@use './components/reset';
-@use './components/scrollbars';
+//misc
+@use './components/misc/reset';
+@use './components/misc/scrollbars';
+
+//header
+@use './components/header/header';
+@use './components/header/logo';
+@use './components/header/navbar';
+
+//hero
+@use './components/hero/hero';

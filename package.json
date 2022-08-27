@@ -4,6 +4,7 @@
     "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-router-dom": "^6.3.0",
         "zustand": "^4.1.1"
     },
     "devDependencies": {
@@ -23,7 +24,7 @@
         "dev": "nodemon --legacy-watch --exec \"npm run build\"",
         "webpack": "webpack",
         "build:sass": "sass --no-source-map ./src/sass:./public/assets/css",
-        "copy:assets": "copyfiles -u 2 ./src/assets/**/* ./public",
+        "copy:assets": "copyfiles -u 1 ./src/assets/**/* ./public",
         "copy:index": "copyfiles -u 1 ./src/index.html ./public",
         "copy": "npm-run-all --parallel copy:*",
         "build": "npm-run-all webpack copy build:*"

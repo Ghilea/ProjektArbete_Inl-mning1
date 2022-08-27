@@ -1,0 +1,21 @@
+.logo {
+    width: fit-content;
+    height: 3em;
+    margin-left: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 2em;
+
+    .logo_text {
+        font-size: clamp(1rem, 1.7vw, 1.7rem);
+        color: white;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+    }
+
+    img {
+        width: 100%;
+        max-width: 3em;
+    }
+}
