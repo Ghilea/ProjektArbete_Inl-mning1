@@ -1,7 +1,7 @@
 import React from 'react';
 import { Basic } from '@comp/store';
 import { Header } from '@comp/header/header';
-import { Hero } from '@comp/hero/hero';
+import { Routing } from '@comp/routing';
 
 export const App = () => {
 
@@ -9,8 +9,8 @@ export const App = () => {
 
     return (
         <>  
-           <Header />
-           <Hero />
+            <Routing />
+            <Header />
         </>        
     )
 }
