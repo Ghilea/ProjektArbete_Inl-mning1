@@ -12,7 +12,7 @@
     }
 
     .logo_text {
-        font-size: clamp(0.7rem, 1.7vw, 1.7rem);
+        font-size: clamp(0.7rem, 1.3vw, 1.3rem);
         color: white;
         font-weight: 700;
         letter-spacing: 0.1em;
@@ -20,6 +20,6 @@
     }
 
     img {
-        width: max(4vw, 2em);
+        width: max(3vw, 2em);
     }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProductList } from '@comp/products/productList'
+import { ProductList } from '@comp/products/productList';
 
 export const Home = () => {
 

@@ -1,0 +1,17 @@
+.navigationText {
+    font-size: clamp(0.7rem, 1vw, 1rem);
+    max-width: calc(1200px - 8em);
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.filter {
+    width: 100%;
+    height: clamp(25vh, 100vw - 25vh, 100vh);
+    top: 0;
+    z-index: -1;
+    background-image: url(../../assets/backgrounds/background_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

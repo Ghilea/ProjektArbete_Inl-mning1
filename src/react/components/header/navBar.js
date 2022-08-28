@@ -1,8 +1,11 @@
 import React, { useReducer} from 'react';
 import { Link } from 'react-router-dom';
+import { Basic } from '@comp/store';
 
 export const NavBar = () => {
 
+    const store = Basic(state => state);
+    
     const reducer = (state, action) => {
         switch (action.type) {
             case true:
@@ -28,18 +31,22 @@ export const NavBar = () => {
 
     const tempPath = '/projektarbete/ProjektArbete_Inl-mning1/public/';
 
+    const changePath = (value) => {
+        store.changePath(value)   
+    }
+
     return (
         <nav>
 
             <div className='left desktopMenu'>
-                <Link className='item' to={tempPath}>Hem</Link>
-                <Link className='item' to={tempPath+'product'}>Produkter</Link>
+                <Link className='item' to={tempPath} onClick={()=> changePath('home')}>Hem</Link>
+                <Link className='item' to={tempPath+'product'} onClick={ () => changePath('product')}>Produkter</Link>
             </div>
 
             <div className='left phoneMenu' onClick={openPhoneMenu}>
                 <div className={`phoneMenuBox ${state.display ? 'display' : ''}`}>
-                    <Link className='item' to={tempPath}>Hem</Link>
-                    <Link className='item' to={tempPath+'product'}>Produkter</Link>
+                    <Link className='item' to={tempPath} onClick={() => changePath('home')}>Hem</Link>
+                    <Link className='item' to={tempPath+'product'} onClick={() => changePath('product')}>Produkter</Link>
                 </div>
                 
             </div>
