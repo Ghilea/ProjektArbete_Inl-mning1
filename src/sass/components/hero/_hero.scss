@@ -1,7 +1,6 @@
 .hero {
     width: 100%;
     height: clamp(25vh, 100vw - 25vh, 100vh);
-    position: fixed;
     top: 0;
     z-index: -1;
     background-image: url(../../assets/backgrounds/background_hero.jpg);
@@ -19,12 +18,15 @@
         
         .hero__title {
             font-size: clamp(2rem, 5vw, 5rem);
-            font-family: 'Open Sans', sans-serif;
+            font-family: "Open Sans", sans-serif;
+            letter-spacing: 0.05em;
+            line-height: 4rem;
         }
 
         .hero__subTitle {
-            margin-left: 1em;
-            font-size: clamp(1rem, 2.5vw, 2.5rem);
+            margin: 1em;
+            font-size: clamp(0.7rem, 2vw, 2rem);
+            line-height: 3.5rem;
         }
     }
 }

@@ -1,3 +1,9 @@
 .display {
     display: flex !important;
 }
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
