@@ -1,7 +1,9 @@
 import React from 'react';
 import { CartState } from '@comp/cart/cart_state';
 import { CartShoping } from '@comp/cart/cart_shopingcart';
-import { CartInformation } from '../cart/cart_information';
+import { CartInformation } from '@comp/cart/cart_information';
+import { CartShipment } from '@comp/cart/cart_shipment';
+import { CartPayment } from '@comp/cart/cart_payment';
 
 export const Cart = () => {
 
@@ -11,6 +13,8 @@ export const Cart = () => {
             <CartState />
             <CartShoping />
             <CartInformation />
+            <CartShipment />
+            <CartPayment />
 
         </div>
     )

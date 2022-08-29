@@ -6,14 +6,19 @@
     gap: 1em;
     flex-wrap: nowrap;
     background-color: #3d5a80;
-    justify-content: center;
     padding: 2em 0;
+
+    .cInformation_headTitle {
+        color: white;
+        margin: 1em 0 1em 1em;
+        font-size: clamp(0.8rem, 1.4vw, 1.4rem);
+    }
 
     .cInformation_choose {
         color: white;
         position: absolute;
         right: 1em;
-        bottom: 0.5em;
+        bottom: 1em;
     }
 
     .cInformation_login {
@@ -27,25 +32,33 @@
         display:flex;
         gap: 1em;
         flex-wrap: wrap;
+        margin: 0 1em;
 
-        label {
-            color: white;
-        }
+        .form_box {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
 
-        input {
-            border: none;
-            background-color: #98c1d900;
-            padding: 1em 0.3em;
-            border-bottom: 0.3em solid #ffffff;
-            width: 20em;
-            color: white;
-            outline: none;
-            border-radius: 0.2em;
+            label {
+                color: white;
+            }
 
-            &::placeholder {
-                color:white;
+            input {
+                border: none;
+                background-color: #98c1d900;
+                padding: 1em 0.3em;
+                border-bottom: 0.3em solid #ffffff;
+                width: 20em;
+                color: white;
+                outline: none;
+                border-radius: 0.2em;
+
+                &::placeholder {
+                    color:white;
+                }
             }
         }
+
     }
     
 }
