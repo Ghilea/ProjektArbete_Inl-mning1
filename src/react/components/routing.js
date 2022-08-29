@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home } from '@comp/pages/home';
 import { Product } from '@comp/pages/product';
+import { Cart } from '@comp/pages/cart';
 import { Route, Routes } from 'react-router-dom';
 
 export const Routing = () => {
@@ -11,6 +12,7 @@ export const Routing = () => {
         <Routes>
             <Route path={tempPath} element={ <Home /> } />
             <Route path={tempPath+'product'} element={ <Product /> } />
+            <Route path={tempPath+'cart'} element={ <Cart /> } />
         </Routes>
     )
     

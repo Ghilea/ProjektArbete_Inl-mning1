@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProductList } from '@comp/products/productList';
 
-export const Product = () => {
+export const Cart = () => {
 
     const boxLoop = [
         {
