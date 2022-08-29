@@ -1,0 +1,51 @@
+.cInformation {
+    width: 100%;
+    display: flex;
+    min-height: 20em;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: nowrap;
+    background-color: #3d5a80;
+    justify-content: center;
+    padding: 2em 0;
+
+    .cInformation_choose {
+        color: white;
+        position: absolute;
+        right: 1em;
+        bottom: 0.5em;
+    }
+
+    .cInformation_login {
+        color: white;
+        position: absolute;
+        right: 1em;
+        top: 0.5em;
+    }
+
+    .form {
+        display:flex;
+        gap: 1em;
+        flex-wrap: wrap;
+
+        label {
+            color: white;
+        }
+
+        input {
+            border: none;
+            background-color: #98c1d900;
+            padding: 1em 0.3em;
+            border-bottom: 0.3em solid #ffffff;
+            width: 20em;
+            color: white;
+            outline: none;
+            border-radius: 0.2em;
+
+            &::placeholder {
+                color:white;
+            }
+        }
+    }
+    
+}

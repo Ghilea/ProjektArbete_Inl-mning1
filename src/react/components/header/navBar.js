@@ -53,7 +53,7 @@ export const NavBar = () => {
             
             <div className='right'>
                     <a className='item' href="#"><img src='./assets/images/search_zoom_icon.svg' alt='bild på ett förstoringsglas'/></a> 
-                    <Link className='item' to={tempPath+'cart'}><img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/></Link>
+                    <Link className='item' to={tempPath+'cart'} onClick={() => changePath('cart')}><img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/></Link>
             </div>
         
         </nav> 
