@@ -2,6 +2,7 @@ import React from 'react';
 import { Home } from '@comp/pages/home';
 import { Product } from '@comp/pages/product';
 import { Cart } from '@comp/pages/cart';
+import { Order } from '@comp/pages/order';
 import { Route, Routes } from 'react-router-dom';
 
 export const Routing = () => {
@@ -10,9 +11,10 @@ export const Routing = () => {
 
     return (
         <Routes>
-            <Route path={tempPath} element={ <Cart /> } />
+            <Route path={tempPath} element={ <Home /> } />
             <Route path={tempPath+'product'} element={ <Product /> } />
             <Route path={tempPath+'cart'} element={ <Cart /> } />
+            <Route path={tempPath+'cart'} element={ <Order /> } />
         </Routes>
     )
     
