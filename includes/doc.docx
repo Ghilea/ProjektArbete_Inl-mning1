@@ -1,0 +1,20 @@
+Du ska skriva en kort sammanfattning som du lämnar in med din kod. Beskriv hur du tänkt med din design, färger och val av font utifrån ditt use case.
+
+Jag tog ut det jag tyckte var viktig information från mitt use case.
+* Personen känner väl till produkten
+* Spenderar väldigt sällan saker på sig själv
+* Egenföretagare
+* Ung person med familj (barn)
+
+Att personen är ung och känner till produkten gör det betydligt lättare att sälja in allt, men design borde vara någorlunda stilrent och modern.
+När det kommer till att personen bedriver ett företag måste det finnas med val att kunna köpa via företaget där man visar exkl pris utan moms. Kunna erbjuda varierade produkter där barnen kanske vill ha gaming och hon behöver bra kvalitet på hörlurar till sina anställda. 
+
+Jag valde blå färg som första färg då blå förknippas med tillit, förtroende och sanning. Företaget heter "Truth" Headphones som passar bra med det. Blå nyans av färg passar bra ihop med orange, röd och de neutrala färgerna. Vilket gjorde att jag tog 5 färger, där 3 av färgerna är olika styrkor av blå, en är orange och den andra är mer åt det neutrala hållet.
+
+Fonts så tänker jag att Open sans i fet still kommer passa bra till rubriker / extra viktiga ord. Medan det mer normala texterna får ha någon form av vanligare font, jag valde "Lora" från Google då jag tyckte det skulle passa in på hemsidan.
+
+
+
+Lite egna tankar kring mitt arbete
+
+Jag vet av att min kod är ostrukturerd och det är mycket repetivt av kod i t.ex. cssn filerna. Något jag dras med varje gång jag kodar och försöker göra färight arbetet snabbt. Jag har alltid följt min grundtanke att gör klart allt snabbt och optimera koden när tid finns för det. Hellre ett färdigt projekt än ett projekt som inte blir färdigt. 
