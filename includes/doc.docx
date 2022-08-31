@@ -18,3 +18,8 @@ Fonts så tänker jag att Open sans i fet still kommer passa bra till rubriker /
 Lite egna tankar kring mitt arbete
 
 Jag vet av att min kod är ostrukturerd och det är mycket repetivt av kod i t.ex. cssn filerna. Något jag dras med varje gång jag kodar och försöker göra färight arbetet snabbt. Jag har alltid följt min grundtanke att gör klart allt snabbt och optimera koden när tid finns för det. Hellre ett färdigt projekt än ett projekt som inte blir färdigt. 
+
+
+Lite ändringar från Figmas design
+
+Jag insåg att designen fungerade ganska bra i mobilformatet men när det blev större skärm kändes det inte bra, jag ändra om lite så att alla knappar t.ex. följer samma stil under "filterdelen". Herodelen för startsidan ändrades till lite mer modern stil där bilden blir bakgrunden. Herodelen för de andra lades till för att kunna "mixa ihop" headern (navbaren). En gradientidé för hela sidan istället där man går från stark blå till vitt. Jag hoppade över att ha synliga borders som i figmadesignen även om det 2022 är inne med det. Jag tror box-shadow gör designen mer lik vad unga personer skulle tycka är fint tillsammans med gradient.
