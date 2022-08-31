@@ -4,19 +4,24 @@ export const CartPayment = () => {
 
     const boxLoop = [
         {
-            title: 'Postnord',
+            title: 'Swish',
             image: './assets/images/headphones_audio_icon.svg',
-            information: 'Kan levereras som Varubrev, Ombud, Hemleverans (dag/kväll) eller Paketskåp'
+            information: ''
         },
         {
-            title: 'Instabox',
+            title: 'Faktura',
             image: './assets/images/headphones_audio_icon.svg',
-            information: 'Kan levereras som Hemleverans (kväll) eller Paketskåp'
+            information: ''
         },
         {
-            title: 'DHL',
+            title: 'Bankbetalning',
             image: './assets/images/headphones_audio_icon.svg',
-            information: 'Kan levereras som Ombud'
+            information: ''
+        },
+        {
+            title: 'Kreditkort',
+            image: './assets/images/headphones_audio_icon.svg',
+            information: ''
         }
         
     ]
@@ -36,7 +41,7 @@ export const CartPayment = () => {
     return (
   
         <div className='cartShipment'>
-            <h2 className='cartShipment_headTitle'>Fraktsätt</h2>
+            <h2 className='cartShipment_headTitle'>Betalsätt</h2>
             {box}
         </div>
 

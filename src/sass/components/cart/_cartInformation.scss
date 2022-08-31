@@ -1,12 +1,12 @@
 .cInformation {
+    max-width: 900px;
     width: 100%;
+    margin: 0 auto;
     display: flex;
-    min-height: 20em;
-    flex-direction: column;
     gap: 1em;
     flex-wrap: nowrap;
-    background-color: #3d5a80;
     padding: 2em 0;
+    flex-direction: column;
 
     .cInformation_headTitle {
         color: white;
@@ -17,8 +17,8 @@
     .cInformation_choose {
         color: white;
         position: absolute;
-        right: 1em;
-        bottom: 1em;
+        right: 0;
+        bottom: 0;
     }
 
     .cInformation_login {

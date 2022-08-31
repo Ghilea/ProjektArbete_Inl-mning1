@@ -10,6 +10,7 @@
 
 //hero
 @use './components/hero/hero';
+@use './components/hero/heroCart';
 
 //product
 @use './components/product/product';
@@ -20,4 +21,3 @@
 @use './components/cart/cart';
 @use './components/cart/cartInformation';
 @use './components/cart/cartShipment';
-@use './components/cart/cartPayment';

@@ -1,14 +1,16 @@
 .cartShipment {
+    max-width: 900px;
     width: 100%;
+    margin: 0 auto;
     display: flex;
     min-height: 20em;
-    flex-direction: column;
+    gap: 1em;
     flex-wrap: nowrap;
-    background-color: #3d5a80;
     padding: 2em 0;
+    flex-direction: column;
 
     .cartShipment_headTitle {
-        color: white;
+        color: 000;
         margin: 1em 0 1em 1em;
         font-size: clamp(0.8rem, 1.4vw, 1.4rem);
     }
@@ -22,8 +24,9 @@
         padding: 0 2em;
         align-items: center;
         color: white;
-        border-bottom: solid 1px #fff;
-        border-top: solid 1px #fff;
+        background-color: #29324112;
+        border-radius: 0.3em;
+        box-shadow: 0 0 5px #2932418a;
 
         img {
             width: max(3vw, 2em);

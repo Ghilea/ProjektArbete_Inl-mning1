@@ -9,13 +9,13 @@ export const Cart = () => {
 
     return (
         <div className='container'>
-
-            <CartState />
-            <CartShoping />
-            <CartInformation />
-            <CartShipment />
-            <CartPayment />
-
+            <div className='heroCart'>
+                <CartState />
+                <CartShoping />
+                <CartInformation />
+                <CartShipment />
+                <CartPayment />
+            </div>
         </div>
     )
 }

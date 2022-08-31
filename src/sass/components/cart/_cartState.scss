@@ -1,25 +1,28 @@
 .state {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    width: calc(100% - 4em);
-    padding: 3em 0;
+    flex-wrap: nowrap;
+    padding: 2em 0;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin: 4em auto 2em auto;
 
     .circle {
         width: 3vw;
         height: 3vw;
-        background-color: #3d5a80;
+        background-color: #293241;
+        box-shadow: 0 0 5px #e0fbfca6;
         border-radius: 50%;
         position: relative;
         display: flex;
         justify-content: center;
 
         p {
-            color: black;
+            color: white;
             position: absolute;
-            bottom: -1.5em;
+            bottom: -2.5em;
             font-size: clamp(0.8rem, 1.3vw, 1.3rem);
         } 
     }
@@ -28,7 +31,7 @@
         background-color: #3d5a80;
         max-width: 100%;
         width: 10em;
-        height: 5px;
+        height: 5px;     
     }
 
 }
