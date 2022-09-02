@@ -29,8 +29,6 @@ export const NavBar = () => {
         dispatch({type: state.display})
     }
 
-    const tempPath = '/projektarbete/ProjektArbete_Inl-mning1/public/';
-
     const changePath = (value) => {
         store.changePath(value)   
     }
@@ -39,21 +37,23 @@ export const NavBar = () => {
         <nav>
 
             <div className='left desktopMenu'>
-                <Link className='item' to={tempPath} onClick={()=> changePath('home')}>Hem</Link>
-                <Link className='item' to={tempPath+'product'} onClick={ () => changePath('product')}>Produkter</Link>
+                <Link className='item' to='/' onClick={()=> changePath('home')}>Hem</Link>
+                <Link className='item' to='/product' onClick={ () => changePath('product')}>Produkter</Link>
             </div>
 
             <div className='left phoneMenu' onClick={openPhoneMenu}>
                 <div className={`phoneMenuBox ${state.display ? 'display' : ''}`}>
-                    <Link className='item' to={tempPath} onClick={() => changePath('home')}>Hem</Link>
-                    <Link className='item' to={tempPath+'product'} onClick={() => changePath('product')}>Produkter</Link>
+                    <Link className='item' to='/' onClick={() => changePath('home')}>Hem</Link>
+                    <Link className='item' to='/product' onClick={() => changePath('product')}>Produkter</Link>
                 </div>
                 
             </div>
             
             <div className='right'>
                     <a className='item' href="#"><img src='./assets/images/search_zoom_icon.svg' alt='bild på ett förstoringsglas'/></a> 
-                    <Link className='item' to={tempPath+'cart'} onClick={() => changePath('cart')}><img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/></Link>
+                    <Link className='item' to='/cart' onClick={() => changePath('cart')}>
+                        <img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/>
+                    </Link>
             </div>
         
         </nav> 

@@ -7,14 +7,12 @@ import { Route, Routes } from 'react-router-dom';
 
 export const Routing = () => {
     
-    const tempPath = '/projektarbete/ProjektArbete_Inl-mning1/public/';
-
     return (
         <Routes>
-            <Route path={tempPath} element={ <Home /> } />
-            <Route path={tempPath+'product'} element={ <Product /> } />
-            <Route path={tempPath+'cart'} element={ <Cart /> } />
-            <Route path={tempPath+'cart'} element={ <Order /> } />
+            <Route path={'/'} element={ <Home /> } />
+            <Route path={'/product'} element={ <Product /> } />
+            <Route path={'/cart'} element={ <Cart /> } />
+            <Route path={'/order'} element={ <Order /> } />
         </Routes>
     )
     

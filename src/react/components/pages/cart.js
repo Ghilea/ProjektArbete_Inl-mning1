@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom';
 
 export const Cart = () => {
 
-    const tempPath = '/projektarbete/ProjektArbete_Inl-mning1/public/';
-
     return (
         <div className='container'>
             <div className='heroCart'>
@@ -18,7 +16,7 @@ export const Cart = () => {
                 <CartInformation />
                 <CartShipment />
                 <CartPayment />
-                <Link className='button' to={tempPath+'order'}>Slutför Köp</Link>
+                <Link className='button' to='/order'>Slutför Köp</Link>
             </div>
         </div>
     )
