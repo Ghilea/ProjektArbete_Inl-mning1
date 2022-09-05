@@ -4,7 +4,7 @@ module.exports = [
     {
         name: 'client',
         mode: 'development',
-        entry: './src/react/index.js',
+        entry: './src/index.js',
         output: {
             path: path.resolve(__dirname, './public/assets/js'),
             filename: 'bundle.js'
@@ -16,6 +16,9 @@ module.exports = [
                 '@comp': path.resolve(__dirname, 'src/react/components'),
                 '@shared': path.resolve(__dirname, 'src/shared')
             }
+        },
+        devServer: {
+            historyApiFallback: true
         },
         module: {
             rules: [

@@ -9,10 +9,10 @@ export const Routing = () => {
     
     return (
         <Routes>
-            <Route path={'/'} element={ <Home /> } />
-            <Route path={'/product'} element={ <Product /> } />
-            <Route path={'/cart'} element={ <Cart /> } />
-            <Route path={'/order'} element={ <Order /> } />
+            <Route path='/' element={ <Home /> } />
+            <Route path='/product' element={ <Product /> } />
+            <Route path='/cart' element={ <Cart /> } />
+            <Route path='/order' element={ <Order /> } />
         </Routes>
     )
     

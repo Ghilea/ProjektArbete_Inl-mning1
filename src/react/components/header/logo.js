@@ -1,11 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Basic } from '@comp/store';
 
 export const Logo = () => {
 
     return (
-        <div className='logo'>
-            <img src='./assets/images/logo.svg' alt="Bild på loga"/>
-            <a className='logo_text' href="#">Truth Headphones</a>
-        </div>      
+        <Link className='item' to='/' onClick={()=> changePath('home')}>
+            <div className='logo'>
+                <img src='./assets/images/logo.svg' alt="Bild på loga"/>
+                <p className='logo_text'>Truth Headphones</p>
+            </div>   
+        </Link>
+           
     )
 }
