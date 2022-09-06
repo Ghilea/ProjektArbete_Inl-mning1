@@ -1,22 +1,29 @@
 import React from 'react';
 import { ProductList } from '@comp/products/productList';
+import { HomeHeroData } from '@comp/data';
 
 export const Home = () => {
+
+    const data = HomeHeroData.map((item, index) => {
+        return (
+            <React.Fragment key={item.title + index}>
+                <h1>{item.title}</h1>
+                <p>{item.subTitle}</p>
+            </React.Fragment>
+        )
+    })
 
     return (
         <>
             <div className='container'>
                 <div className='hero'>
-                    <div className='hero_text'>
-                        <h1 className='hero__title'>Hörlurar 2022</h1>
-                        <p className='hero__subTitle'>Oavsett om du vill ha fräcka AirPods eller stora Over-Ear hörlurar har vi det som passar dig.</p>
+                    <div className='heroBox'>
+                        {data}
                     </div>
                 </div>
                 
                 <ProductList />
             </div>
-            
-
         </>
     )
 }

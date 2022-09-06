@@ -6,13 +6,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    gap: 1em;
-}
-
-.navBackground {
-    background: rgb(206,137,32);
-    background: linear-gradient(180deg, rgba(206,137,32,1) 0%, rgba(226,151,48,1) 35%, rgba(245,171,66,1) 100%);
-    background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(44 42 39) 35%, rgb(50 48 45) 100%);
+    gap: 8em;
 }
 
 .orange {
@@ -21,4 +15,21 @@
 
 .babyBlue {
     background-color: #98c1d9 !important;
+}
+
+.button {
+    color: white;
+    background-color: #ee6c4d;
+    max-width: 8em;
+    width: 100%;
+    height: 2em;
+    border-radius: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #eb5a36;
+    }
 }

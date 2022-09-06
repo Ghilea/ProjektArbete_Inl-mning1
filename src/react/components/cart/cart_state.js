@@ -1,26 +1,9 @@
 import React from 'react';
+import { CartStateData } from '@comp/data';
 
 export const CartState = () => {
 
-    const boxLoop = [
-        {
-            title: 'Kundvagn'
-        },
-        {
-            title: 'Uppgifter',
-        },
-        {
-            title: 'Fraktsätt',
-        },
-        {
-            title: 'Betalsätt',
-        },
-        {
-            title: 'Slutför',
-        }
-    ]
-
-    const box = boxLoop.map((item, index) => {
+    const box = CartStateData.map((item, index) => {
         return (
             <React.Fragment key={item.title+index}>
                 <div className={`circle ${index === 0 ? 'babyBlue' : ''}`}>
@@ -32,8 +15,10 @@ export const CartState = () => {
     }) 
 
     return (
-        <div className='state'>
-            {box}
+        <div className='stateContainer'>
+            <div className='state'>
+                {box}
+            </div>
         </div>
     )
 }

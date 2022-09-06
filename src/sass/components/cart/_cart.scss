@@ -9,14 +9,14 @@
     flex-direction: column;
 
     .cart_sum {
-        color: white;
+        color: black;
         position: absolute;
         right: 0;
         bottom: 0;
     }
 
     .cart_headTitle {
-        color: white;
+        color: black;
         margin: 1em 0 1em 1em;
         font-size: clamp(0.8rem, 1.4vw, 1.4rem);
     }
@@ -30,9 +30,13 @@
         padding: 0 2em;
         align-items: center;
         color: white;
-        background-color: #29324112;
+        background-color: #3d5a80;
         border-radius: 0.3em;
-        box-shadow: 0 0 5px #2932418a;
+        box-shadow: 0 0 5px #293241b3;
+
+        @media screen and (max-width: 992px) {
+            border-radius: 0;
+        }
 
         img {
             width: max(3vw, 2em);

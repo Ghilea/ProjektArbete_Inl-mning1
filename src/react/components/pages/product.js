@@ -1,37 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ProductList } from '@comp/products/productList';
+import { ProductData } from '@comp/data';
 
 export const Product = () => {
 
-    const boxLoop = [
-        {
-            title: 'Handsfree'
-        },
-        {
-            title: 'In-Ear',
-        },
-        {
-            title: 'On-Ear',
-        },
-        {
-            title: 'Over-Ear',
-        },
-        {
-            title: 'Brusreducering',
-        },
-        {
-            title: 'Trådlös',
-        },
-        {
-            title: 'Mikrofon',
-        }
-    ]
-
-    const box = boxLoop.map((item, index) => {
+    const box = ProductData.map((item, index) => {
         return (
-            <div className='product_box' key={item.title+index}>
-                <img src='./assets/images/headphones_audio_icon.svg' alt='bild på specifik hörlur'/>
-                <p className='product__title'>{item.title}</p>
+            <div className='button' key={item.title+index}>
+                <img src='./assets/images/headphones_audio_icon.svg' alt='bild på hörlur'/>
+                <h3>{item.title}</h3>
             </div>
         )
     }) 
@@ -39,14 +17,19 @@ export const Product = () => {
     return (
         <div className='container'>
 
-            <div className='filter_container'>
-                <h2 className='filter_title'>Filter</h2>
-                <div className='filter'>
+            <div className='filterContainer'>
+                <h2>Filter</h2>
+                <div className='filterBox'>
                     {box}
                 </div>
             </div>
 
-            <div className='navigationText'>{`Hem > Produkter > HeadPhones`}</div>
+            <div className='navigationText'>
+                <Link className='link' to='/' onClick={()=> changePath('home')}>Hem</Link> &gt; 
+                Produkter &gt;
+                HeadPhones
+            </div>
+
             <ProductList />
         </div>
     )

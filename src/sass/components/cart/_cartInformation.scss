@@ -9,30 +9,35 @@
     flex-direction: column;
 
     .cInformation_headTitle {
-        color: white;
+        color: black;
         margin: 1em 0 1em 1em;
         font-size: clamp(0.8rem, 1.4vw, 1.4rem);
     }
 
     .cInformation_choose {
-        color: white;
+        color: black;
         position: absolute;
-        right: 0;
+        right: 1em;
         bottom: 0;
     }
 
     .cInformation_login {
-        color: white;
+        color: black;
         position: absolute;
         right: 1em;
         top: 0.5em;
+        font-weight: bold;
     }
 
     .form {
         display:flex;
         gap: 1em;
         flex-wrap: wrap;
-        margin: 0 1em;
+        margin: 0 0 2em 0;
+
+        @media screen and (max-width: 992px) {
+            justify-content: center;
+        }
 
         .form_box {
             display: flex;
@@ -40,21 +45,21 @@
             gap: 2em;
 
             label {
-                color: white;
+                color: black;
             }
 
             input {
                 border: none;
                 background-color: #98c1d900;
                 padding: 1em 0.3em;
-                border-bottom: 0.3em solid #ffffff;
+                border-bottom: 0.3em solid #3d5a80;
                 width: 20em;
-                color: white;
+                color: black;
                 outline: none;
                 border-radius: 0.2em;
 
                 &::placeholder {
-                    color:white;
+                    color:rgba(0, 0, 0, 0.5);
                 }
             }
         }

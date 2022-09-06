@@ -10,14 +10,12 @@ export const Cart = () => {
 
     return (
         <div className='container'>
-            <div className='heroCart'>
-                <CartState />
-                <CartShoping />
-                <CartInformation />
-                <CartShipment />
-                <CartPayment />
-                <Link className='button' to='/order'>Slutför Köp</Link>
-            </div>
+            <CartState />
+            <CartShoping />
+            <CartInformation />
+            <CartShipment />
+            <CartPayment />
+            <Link className='button' to='/order'>Slutför Köp</Link>
         </div>
     )
 }

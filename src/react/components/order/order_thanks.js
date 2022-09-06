@@ -21,7 +21,7 @@ export const Thanks = () => {
                 </div>
             </form>
 
-            <div className='cInformation_choose'>Privatperson | Företag</div>
+            <div className='cInformation_choose'></div>
 
         </div>
 
