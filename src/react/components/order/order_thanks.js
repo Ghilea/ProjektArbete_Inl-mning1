@@ -1,27 +1,53 @@
 import React from 'react';
+import { OrderShipmentData, OrderPaymentData, OrderData } from '@comp/data';
+import { Button } from '@comp/button';
 
 export const Thanks = () => {
 
+    const shipmentData = OrderShipmentData.map((item, index) => {
+        return (
+            <div className='orderBox' key={item.title+index}>
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
+            </div>         
+        )
+    })
+    
+    const paymentData = OrderPaymentData.map((item, index) => {
+        return (
+            <div className='orderBox' key={item.title+index}>
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
+            </div>
+        )
+    })
+    
+    const orderData = OrderData.map((item, index) => {
+        return (
+           <div className={`orderBox ${index === 1 ? 'directionRow' : ''}`} key={item.title+index}>
+                {index === 1 ? <p>620kr</p> : <h2>{item.title}</h2>}
+                <p>{item.text}</p>
+            </div>
+        )
+    })
     return (
   
-        <div className='cInformation'>
-            <h2 className='cInformation_headTitle'>Uppgifter</h2>
+        <div className='order'>
+            <div className='orderHero'>Tack för din beställning</div>
             
-            <div className='cInformation_login'>Logga in</div>
+            <div className='orderBoxContainer'>
+                {shipmentData}
+            </div>
 
-            <form className='form'>
-                <div className='form_box'>
-                    <input type="text" placeholder='Förnamn' />
-                    <input type="text" placeholder='Adress' />
-                    <input type="text" placeholder='E-post' />
-                </div>
-                <div className='form_box'>
-                    <input type="text" placeholder='Efternamn' />
-                    <input type="text" placeholder='Mobilnummer' />
-                </div>
-            </form>
+            <div className='orderBoxContainer'>
+                {paymentData}
+            </div>
 
-            <div className='cInformation_choose'></div>
+            <div className='orderBoxContainer'>
+                {orderData}
+            </div>
+
+            <Button>Ändra beställning</Button>
 
         </div>
 

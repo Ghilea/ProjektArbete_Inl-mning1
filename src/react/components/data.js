@@ -90,7 +90,7 @@ export const CartShipmentData = [{
         image: './assets/images/headphones_audio_icon.svg',
         information: 'Kan levereras som Ombud'
     }
-]
+];
 
 export const CartPaymentData = [{
         title: 'Swish',
@@ -112,5 +112,34 @@ export const CartPaymentData = [{
         image: './assets/images/headphones_audio_icon.svg',
         information: ''
     }
+];
 
-]
+export const OrderShipmentData = [{
+        title: 'Leveransadress',
+        text: '110 Longfellow Ave'
+    },
+    {
+        title: 'Leveranssätt',
+        text: 'Instabox (Hemleverans)'
+    }
+];
+
+export const OrderPaymentData = [{
+        title: 'Ordernummer',
+        text: '#1972'
+    },
+    {
+        title: 'Betalningssätt',
+        text: 'Swish'
+    }
+];
+
+export const OrderData = [{
+        title: 'Artikel',
+        text: 'Lorem ipsum'
+    },
+    {
+        title: '',
+        text: '1x'
+    }
+];

@@ -4,7 +4,7 @@ import { CartShoping } from '@comp/cart/cart_shopingcart';
 import { CartInformation } from '@comp/cart/cart_information';
 import { CartShipment } from '@comp/cart/cart_shipment';
 import { CartPayment } from '@comp/cart/cart_payment';
-import { Link } from 'react-router-dom';
+import { Button } from '@comp/button';
 
 export const Cart = () => {
 
@@ -15,7 +15,7 @@ export const Cart = () => {
             <CartInformation />
             <CartShipment />
             <CartPayment />
-            <Link className='button' to='/order'>Slutför Köp</Link>
+            <Button path='/order'>Slutför köp</Button>
         </div>
     )
 }

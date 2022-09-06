@@ -1,0 +1,37 @@
+.order {
+    
+    .orderHero {
+        background-color: #3d5a80;
+        padding: 5em 0 4em 0;
+        display: flex;
+        color: white;
+        font-size: clamp(1em, 4vw, 4rem);
+        justify-content: center;
+    }
+
+    .orderBoxContainer {
+        display: grid;
+        grid-template-columns: 1fr min(9em, 100%);
+        grid-template-rows: 1fr;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+        padding: 5em 1em;
+        max-width: calc(900px - 8em);
+        width: 100%;
+        gap: 1em;
+        margin: 0 auto;
+        align-items: center;
+
+        .orderBox {
+            display: flex;
+            flex-direction: column;
+            gap:1em;
+            justify-content: space-between;
+
+            h2 {
+                font-weight: bold;
+            }
+        }
+    }
+
+}

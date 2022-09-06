@@ -9,6 +9,14 @@
     gap: 8em;
 }
 
+.directionColumn {
+    flex-direction: column !important;
+}
+
+.directionRow {
+    flex-direction: row !important;
+}
+
 .orange {
     background-color: #ee6c4d !important;
 }
@@ -17,16 +25,23 @@
     background-color: #98c1d9 !important;
 }
 
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
 .button {
     color: white;
     background-color: #ee6c4d;
-    max-width: 8em;
+    max-width: fit-content;
     width: 100%;
     height: 2em;
     border-radius: 0.3em;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1em;
 
     &:hover {
         cursor: pointer;
