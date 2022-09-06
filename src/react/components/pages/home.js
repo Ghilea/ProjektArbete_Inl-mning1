@@ -15,17 +15,15 @@ export const Home = () => {
     })
 
     return (
-        <>
-            <div className='container'>
-                <div className='hero'>
-                    <div className='heroBox'>
-                        {data}
-                        <Button>Erbjudande</Button>
-                    </div>
+        <div className='container'>
+            <div className='hero'>
+                <div className='heroBox'>
+                    {data}
+                    <Button>Erbjudande</Button>
                 </div>
-                
-                <ProductList />
             </div>
-        </>
+            
+            <ProductList />
+        </div>
     )
 }
