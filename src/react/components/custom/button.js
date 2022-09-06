@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 export const Button = ({children, path}) => {
 
-    console.log(path);
     return (
         <div className='buttonContainer'>
             <Link className='button' to={(path === undefined) ? '/' : path}>{children}</Link>

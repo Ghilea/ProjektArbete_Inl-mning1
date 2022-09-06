@@ -1,4 +1,5 @@
 import React from 'react';
+import { Input } from '@comp/custom/input';
 
 export const CartInformation = () => {
 
@@ -11,13 +12,13 @@ export const CartInformation = () => {
 
             <form className='form'>
                 <div className='form_box'>
-                    <input type="text" placeholder='Förnamn' />
-                    <input type="text" placeholder='Adress' />
-                    <input type="text" placeholder='E-post' />
+                    <Input>Förnamn</Input>
+                    <Input>Adress</Input>
+                    <Input>E-post</Input>
                 </div>
                 <div className='form_box'>
-                    <input type="text" placeholder='Efternamn' />
-                    <input type="text" placeholder='Mobilnummer' />
+                    <Input>Efternamn</Input>
+                    <Input>Mobilnummer</Input>
                 </div>
             </form>
 

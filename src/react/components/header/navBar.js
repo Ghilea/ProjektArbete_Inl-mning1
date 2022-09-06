@@ -46,14 +46,15 @@ export const NavBar = () => {
                     <Link className='item' to='/' onClick={() => changePath('home')}>Hem</Link>
                     <Link className='item' to='/product' onClick={() => changePath('product')}>Produkter</Link>
                 </div>
-                
             </div>
             
             <div className='right'>
-                    <a className='item' href="#"><img src='./assets/images/search_zoom_icon.svg' alt='bild på ett förstoringsglas'/></a> 
-                    <Link className='item' to='/cart' onClick={() => changePath('cart')}>
-                        <img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/>
-                    </Link>
+                <Link className='item' to='/' onClick={()=> changePath('home')}>
+                    <img src='./assets/images/search_zoom_icon.svg' alt='bild på ett förstoringsglas'/>
+                </Link> 
+                <Link className='item' to='/cart' onClick={() => changePath('cart')}>
+                    <img src='./assets/images/cart_shopping_icon.svg' alt='bild på en shoppingvagn'/>
+                </Link>
             </div>
         
         </nav> 

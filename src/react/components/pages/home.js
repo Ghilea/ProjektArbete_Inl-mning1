@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProductList } from '@comp/products/productList';
 import { HomeHeroData } from '@comp/data';
+import { Button } from '@comp/custom/button';
 
 export const Home = () => {
 
@@ -19,6 +20,7 @@ export const Home = () => {
                 <div className='hero'>
                     <div className='heroBox'>
                         {data}
+                        <Button>Erbjudande</Button>
                     </div>
                 </div>
                 

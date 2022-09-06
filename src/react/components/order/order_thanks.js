@@ -1,6 +1,6 @@
 import React from 'react';
 import { OrderShipmentData, OrderPaymentData, OrderData } from '@comp/data';
-import { Button } from '@comp/button';
+import { Button } from '@comp/custom/button';
 
 export const Thanks = () => {
 
