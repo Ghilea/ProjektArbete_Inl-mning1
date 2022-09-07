@@ -23,8 +23,11 @@ export const Home = () => {
                     <Button>Erbjudande</Button>
                 </div>
             </div>
+            <div className='sectionContainer'>
+                <h2>Populära produkter</h2>
+                <ProductList />
+            </div>
             
-            <ProductList />
         </div>
     )
 }

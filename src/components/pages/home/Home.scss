@@ -54,3 +54,13 @@
         }
     }
 }
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    h2 {
+        font-weight: bold;
+    }
+}
