@@ -39,7 +39,7 @@ export const NavBar = () => {
     }
 
     return (
-        <nav>
+        <nav className='mainMenu'>
 
             <div className='left desktopMenu'>
                 <Link className='item' to='/' onClick={()=> changePath('home')}>Hem</Link>

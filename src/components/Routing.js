@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home } from '@comp/pages/home/Home';
-import { Product } from '@comp/pages/Product';
+import { Product } from '@comp/pages/product/Product';
 import { Cart } from '@comp/pages/Cart';
 import { Order } from '@comp/pages/Order';
 import { Route, Routes } from 'react-router-dom';

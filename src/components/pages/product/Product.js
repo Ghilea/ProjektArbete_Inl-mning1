@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ProductList } from '@comp/products/ProductList';
 import { ProductData } from '@comp/Data';
 import img from '@/assets/images/headphones_audio_icon.svg';
+import './Product.scss';
 
 
 export const Product = () => {
