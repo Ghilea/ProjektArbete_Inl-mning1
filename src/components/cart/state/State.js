@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartStateData } from '@comp/Data';
+import { CartStateData } from '@/data';
 import './State.scss';
 
 export const CartState = () => {

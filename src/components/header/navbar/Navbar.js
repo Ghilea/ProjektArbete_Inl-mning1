@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 import { Link } from 'react-router-dom';
-import { Basic } from '@comp/Store';
+import { Basic } from '@/store';
 import searchImg from '@/assets/images/search_zoom_icon.svg';
 import shopingImg from '@/assets/images/cart_shopping_icon.svg';
 import './Navbar.scss';

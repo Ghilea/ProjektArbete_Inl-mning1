@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Basic } from '@comp/Store';
+import { Basic } from '@/store';
 import logo from '@/assets/images/logo.svg';
 import './Logo.scss';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProductList } from '@comp/products/ProductList';
-import { HomeHeroData } from '@comp/Data';
+import { HomeHeroData } from '@/data';
 import { Button } from '@comp/custom/Button';
 import './Home.scss';
 

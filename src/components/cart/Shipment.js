@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartShipmentData } from '@comp/Data';
+import { CartShipmentData } from '@/data';
 import './Cart.scss';
 
 export const CartShipment = () => {

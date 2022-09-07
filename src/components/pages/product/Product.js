@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ProductList } from '@comp/products/ProductList';
-import { ProductData } from '@comp/Data';
+import { ProductData } from '@/data';
 import img from '@/assets/images/headphones_audio_icon.svg';
 import './Product.scss';
 

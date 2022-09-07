@@ -1,5 +1,5 @@
 import React from 'react';
-import { OrderShipmentData, OrderPaymentData, OrderData } from '@comp/Data';
+import { OrderShipmentData, OrderPaymentData, OrderData } from '@/data';
 import { Button } from '@comp/custom/Button';
 import './Order.scss';
 

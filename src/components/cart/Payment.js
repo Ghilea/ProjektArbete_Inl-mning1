@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartPaymentData } from '@comp/Data';
+import { CartPaymentData } from '@/data';
 import './Cart.scss';
 
 export const CartPayment = () => {

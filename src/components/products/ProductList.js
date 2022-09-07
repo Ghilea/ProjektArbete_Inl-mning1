@@ -1,5 +1,5 @@
 import React from 'react';
-import { productListData } from '@comp/Data';
+import { productListData } from '@/data';
 import './ProductList.scss';
 import imgProduct from '@/assets/images/headphones_audio_icon.svg';
 
