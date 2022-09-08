@@ -50,7 +50,7 @@ export const Footer = () => {
                     <ul>
                         {data2}
                     </ul>
-                    <h3>
+                    <h3 className='mt1'>
                         För utbildning
                     </h3>
                     <ul>

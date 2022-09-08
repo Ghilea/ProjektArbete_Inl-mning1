@@ -9,7 +9,6 @@ export const Header = () => {
     const [navBg, setNavbg] = useState(false);
 
     const onScroll = (e) => {
-        console.log(navBg);
         if (window.scrollY >= 50) {
             setNavbg(true);
         } else {
