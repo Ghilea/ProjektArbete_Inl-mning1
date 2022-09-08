@@ -145,3 +145,57 @@ export const OrderData = [{
         text: '1x'
     }
 ];
+
+export const FooterData1 = [{
+        title: 'Butik'
+    },
+    {
+        title: 'Hörlurar',
+    },
+    {
+        title: 'Tillbehör',
+    },
+    {
+        title: 'Presentkort',
+    }
+];
+
+export const FooterData2 = [{
+        title: 'Truth Headphones och företag'
+    },
+    {
+        title: 'Handla till företag',
+    }
+];
+
+export const FooterData3 = [
+    {
+        title: 'Truth Headphones i utbildning',
+    },
+    {
+        title: 'Handla till studierna',
+    }
+];
+
+export const FooterData4 = [{
+        title: 'Truth Headphones ledning',
+    },
+    {
+        title: 'Karriärmöjligheter',
+    },
+    {
+        title: 'Garanti',
+    },
+    {
+        title: 'Investerare',
+    },
+    {
+        title: 'Etik och efterlevnad av lagar',
+    },
+    {
+        title: 'Event',
+    },
+    {
+        title: 'Kontakta Truth Headphones',
+    }
+];
