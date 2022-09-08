@@ -7,25 +7,25 @@ export const Footer = () => {
     
     const data1 = FooterData1.map((item, index) => {
         return (
-            <li>{item.title}</li>
+            <li key={item+index}>{item.title}</li>
         )
     })
 
     const data2 = FooterData2.map((item, index) => {
         return ( 
-            <li>{item.title}</li>
+            <li key={item+index}>{item.title}</li>
         )
     })
 
     const data3 = FooterData3.map((item, index) => {
         return ( 
-            <li>{item.title}</li>
+            <li key={item+index}>{item.title}</li>
         )
     })
 
     const data4 = FooterData4.map((item, index) => {
         return ( 
-            <li>{item.title}</li>
+            <li key={item+index}>{item.title}</li>
         )
     })
 
