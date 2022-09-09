@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -25,7 +26,6 @@ time, mark, audio, video, button {
 	vertical-align: baseline;
 	user-select: none;
 	text-decoration: none;
-	font-family: 'Lora', serif;
 	position: relative;
 }
 /* HTML5 display-role reset for older browsers */
@@ -56,6 +56,9 @@ input, button, textarea, select {
 }
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
 }
 img, picture, video, canvas, svg {
   display: block;

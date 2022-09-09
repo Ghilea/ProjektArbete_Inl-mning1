@@ -1,8 +1,8 @@
 import imgHeadphones from '@/assets/images/headphones_audio_icon.svg';
 
 export const HomeHeroData = [{
-    title: 'Hörlurar 2022',
-    subTitle: 'Oavsett om du vill ha små eller stora hörlurar har vi det som passar dig'
+    title: 'Truth X-serien',
+    subTitle: 'Nu är den äntligen här!'
 }];
 
 export const ProductData = [{
